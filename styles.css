@@ -1,203 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap");
 
 :root {
-    --primary-color: #111827;
-    --dark-gray: #D1D5DB;
-    --off-white: #f9fafb;
+  --primary-color: #111827;
+  --dark-gray: #d1d5db;
+  --off-white: #f9fafb;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    padding: 0rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0rem;
 }
 
 hr {
-    margin: 1rem 0rem;
+  margin: 1rem 0rem;
 }
 
 p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .brand-name {
-    font-family: "Audiowide", cursive;
+  font-family: "Audiowide", cursive;
 }
 
 .container {
-    /* padding: 1rem; */
-    padding-left: 1rem;
-    padding-right: 1rem;
-    /* margin-left: 1rem;
+  /* padding: 1rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* margin-left: 1rem;
     margin-right: 1rem; */
-    /* border: 1px red solid; */
-}
-
-.container-center {
-    max-width: 600px;
-    margin: auto;
-}
-
-.links {
-    /* box-sizing: border-box; */
-    text-decoration: none;
-    padding: 0.5rem 0.5rem;
-    /* text-align: center; */
-}
-
-.primary-link {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    display: block;
-    max-width: 130px;
-    text-align: center;
-    margin: auto;
-}
-
-
-.secondary-link {
-    color: var(--primary-color);
-    border: 0.1rem var(--primary-color) solid;
-    border-radius: 0.5rem;
-    display: block;
-    max-width: 120px;
-    margin: auto;
-    text-align: center;
-}
-
-.list-non-bullet {
-    list-style: none;
-}
-
-.list-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-}
-
-.head {
-    padding: 2rem;
-    padding-top: 2rem;
-}
-
-.head .head-img {
-    max-width: 80%;
-    width: 350px;
-    display: block;
-    margin: auto;
-}
-
-.head .head-heading {
-    text-align: center;
-    padding-top: 1rem;
-    color: var(--dark-gray);
-}
-
-.head .head-heading .heading-inverted {
-    color: var(--primary-color);
-}
-
-.section {
-    padding: 2rem;
-}
-
-.section h2 {
-    text-align: center;
-}
-
-.mid-sec.container.container-center {
-    text-align: center;
-}
-
-.ow {
-    background-color: var(--dark-gray);
-}
-
-.footer {
-    padding: 1rem 0.5rem 0.1rem 1rem;
-    background-color: var(--primary-color);
-    color: white;
-    border-top-right-radius: 1rem;
-    text-align: center;
-}
-
-.footer .links {
-    color: white;
+  /* border: 1px red solid; */
 }
 
 .navigation {
-    background-color: var(--primary-color);
-    padding: 1rem 0rem;
-    color: var(--off-white);
-    border-bottom-left-radius: 1rem;
+  background-color: var(--primary-color);
+  padding: 1rem 0rem;
+  color: var(--off-white);
+  border-bottom-left-radius: 1rem;
 }
 
 .container-fluid {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navigation ul {
-    list-style: none;
-    text-align: right;
-    padding: 0px;
+  list-style: none;
+  text-align: right;
+  padding: 0px;
 }
 
 .navigation li {
-    display: inline-block;
-    padding: 0rem 0.2rem;
+  display: inline-block;
+  padding: 0rem 0.2rem;
 }
 
 .navigation .brand-name {
-    float: left;
-    font-size: larger;
+  float: left;
+  font-size: larger;
 }
 
 .navigation a {
-    color: var(--off-white);
+  color: var(--off-white);
 }
 
 .navigation .active {
-    text-decoration: underline;
-    font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .navigation .links {
-    padding: 0;
+  padding: 0;
 }
 
 .connect {
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-size: 1rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.links {
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  padding: 1rem 2rem;
+  /* text-align: center; */
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  display: block;
+  max-width: 130px;
+  text-align: center;
+  margin: auto;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border: 0.1rem var(--primary-color) solid;
+  border-radius: 0.5rem;
+  display: block;
+  max-width: 120px;
+  margin: auto;
+  text-align: center;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.head {
+  padding: 2rem;
+  padding-top: 2rem;
+}
+
+.head .head-img {
+  max-width: 80%;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.head .head-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.head .head-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+.mid-sec.container.container-center {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--dark-gray);
+}
+
+.footer {
+  padding: 1rem 0.5rem 0.1rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer .links {
+  color: white;
 }
 
 @media screen and (min-width: 450px) and (max-width: 1550px) {
-    .navigation li {
-        display: inline-block;
-        padding-right: 1rem;
-    }
+  .navigation li {
+    display: inline-block;
+    padding-right: 1rem;
+  }
 }
 
 .profile {
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1700px) {
-    .profile {
-        float: right;
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-    }
-    .about {
-        text-align: left;
-    }
+  .profile {
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .about {
+    text-align: left;
+  }
 }
